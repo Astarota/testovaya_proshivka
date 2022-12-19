@@ -1,0 +1,13 @@
+/dts-v1/;
+
+#include "DOSSAN.dtsi"
+
+/ {
+        compatible = "dossan-v1.2","dossan-v1.3","dossan-v1.4", "dossan-v1.1","mediatek,mt7621-soc";
+        model = "Testovaya Proshivka";
+};
+
+&firmware {
+        reg = <0x50000 0xfb0000>;
+};
+

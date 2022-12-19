@@ -1,0 +1,1 @@
+cmd_/home/dossan/openwrt/package/utils/spi-ch341-usb/src/modules.order := {   echo /home/dossan/openwrt/package/utils/spi-ch341-usb/src/spi-ch341-usb.ko; :; } | awk '!x[$$0]++' - > /home/dossan/openwrt/package/utils/spi-ch341-usb/src/modules.order
